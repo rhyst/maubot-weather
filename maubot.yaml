@@ -5,3 +5,4 @@ license: MIT
 modules:
   - main
 main_class: WeatherBot
+webapp: true
