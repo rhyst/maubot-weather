@@ -1,6 +1,20 @@
 # WeatherBot
 
-A simple [maubot](https://github.com/maubot/maubot) that scrapes windy.com for a multi-model forecast given a set of coordinates.
+A simple [maubot](https://github.com/maubot/maubot) that scrapes windy.com for a multi-model forecast given a set of coordinates. Docs are [here](https://docs.mau.fi/maubot/index.html).
+
+## Installation and deployment
+
+Run:
+
+```
+poetry install
+```
+
+To deploy run:
+
+```
+poetry run mbc login -u maubot_user -p 'maubot_password' -s https://matrix.example.com -a my_server_alias
+```
 
 ## Usage
 
